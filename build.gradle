@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter(){ url 'http://jcenter.bintray.com/'}
+    }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:2.2.0'
+            classpath 'me.tatarka:gradle-retrolambda:3.4.0'
+            classpath 'org.aspectj:aspectjtools:1.8.9'
+            classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter(){ url 'http://jcenter.bintray.com/'}
+        maven { url "http://jitpack.io" }
+    }
+}
+
+//不加这一句MakeProject会报错，其余都正常无影响
+task compileJava {}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

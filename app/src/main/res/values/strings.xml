@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MvpRxRetrofit</string>
+
+    <string name="load_net_work_error_tip">无法连接网络</string>
+    <string name="load_net_work_weak_tip">网络不给力</string>
+    <string name="loading_tip">加载中...</string>
+</resources>
