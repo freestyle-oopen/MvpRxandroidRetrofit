@@ -32,11 +32,11 @@ public abstract class BaseActivity<P extends BasePresenter , M extends BaseModle
             throw new RuntimeException("Activity--No layout is set");
         }
         setContentView(layoutResId());
-        this.onBind(savedInstanceState);
         mPresenter = InstanceUtils.getInstance(this, 0);
         if (mPresenter != null) {
             mPresenter.onCreate(this);
         }
+		this.onBind(savedInstanceState);
     }
 
 
