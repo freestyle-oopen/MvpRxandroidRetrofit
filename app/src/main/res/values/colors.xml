@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--主题色-->
+    <color name="colorPrimaryDark">#ff8400</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab_text_nor">#646464</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="tab_bg">#f7f7f7</color>
+    <color name="tab_line">#ececec</color>
+</resources>
